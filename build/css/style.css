@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html, body {
+  height: 100%; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.3; }
+  @media (min-width: 768px) {
+    body {
+      font-size: 16px; } }
+
+::-moz-selection {
+  background: #db0a40;
+  color: #fff; }
+
+::selection {
+  background: #db0a40;
+  color: #fff; }
+
+.btn {
+  background: #000;
+  color: #fff;
+  white-space: nowrap;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 15px;
+  border-radius: 4px;
+  line-height: 45px;
+  height: 45px; }
+  .btn.btn-as {
+    width: 130px;
+    background: #000 url(../../img/btn-appstore.png);
+    padding: 0; }
+    .btn.btn-as span {
+      display: none; }
+
+.header {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.125);
+  position: fixed;
+  width: 100%;
+  background: #fff; }
+  .header h1 {
+    line-height: 50px;
+    margin: 0 5px; }
+    .header h1:before {
+      content: " ";
+      display: block;
+      width: 40px;
+      height: 40px;
+      background: url(../../icons/apple-icon-180x180.png);
+      float: left;
+      background-size: cover;
+      margin: 5px; }
+  .header .fb-like {
+    float: right;
+    margin: 15px 15px 0 0; }
+  .header .twitter-share-button {
+    float: right;
+    margin: 15px 8px 0 0; }
+
+.separator {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  height: 0;
+  display: block;
+  margin: 0;
+  background: none;
+  border-width: 0 0 1px; }
+
+.top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  text-align: center;
+  padding-top: 80px; }
+  .top .text {
+    padding: 30px; }
+    .top .text h1 {
+      font-size: 30px;
+      font-weight: 300;
+      margin: .5em 0; }
+      .top .text h1 small {
+        display: none; }
+    .top .text p {
+      margin: 1em 0; }
+  .top .gr {
+    max-width: 90%;
+    margin: 0 auto; }
+    .top .gr img {
+      display: block;
+      max-width: 100%; }
+  @media (min-width: 768px) {
+    .top {
+      -webkit-flex-flow: row nowrap;
+          -ms-flex-flow: row nowrap;
+              flex-flow: row nowrap;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: end;
+      -webkit-justify-content: flex-end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; }
+      .top .text {
+        max-width: 17em;
+        text-align: left;
+        padding: 0 0 30px 20px; }
+      .top .gr {
+        -webkit-flex-basis: 55%;
+            -ms-flex-preferred-size: 55%;
+                flex-basis: 55%;
+        margin: 0 5% 0 0; } }
+
+.films {
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
+  max-width: 1200px; }
+  @media (min-width: 768px) {
+    .films {
+      max-width: 90%; } }
+  .films h2 {
+    font-size: 30px;
+    margin: .5em 0;
+    font-weight: 300; }
+  .films p {
+    margin: 1em 0;
+    max-width: 330px;
+    margin: 0 auto;
+    line-height: 1.5; }
+  .films .preview {
+    padding: 20px 0;
+    margin-top: 10px; }
+    .films .preview ul {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      .films .preview ul li {
+        width: 19%; }
+        .films .preview ul li img {
+          width: 100%; }
+
+.shows {
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
+  max-width: 1200px; }
+  @media (min-width: 768px) {
+    .shows {
+      max-width: 90%; } }
+  .shows h2 {
+    font-size: 30px;
+    margin: .5em 0;
+    font-weight: 300; }
+  .shows p {
+    margin: 1em 0;
+    max-width: 90%;
+    margin: 0 auto;
+    line-height: 1.5; }
+  .shows .preview {
+    padding: 20px 0;
+    margin-top: 10px; }
+    .shows .preview ul {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      .shows .preview ul li {
+        width: 19%; }
+        .shows .preview ul li img {
+          width: 100%; }
+/*# sourceMappingURL=style.css.map */
