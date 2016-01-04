@@ -35,16 +35,19 @@
 	<meta property="og:site_name" content="Filmstep">
 	<meta property="og:url" content="http://filmstep.com">
 	<meta property="og:description" content="Track what you watch and get smart personal recommendations from Trakt.tv. Never miss an episode with smart next step suggestions.">
+	<meta property="fb:app_id" content="1091738740846027">
 	<meta property="og:type" content="product">
 	<meta property="og:image" content="http://filmstep.com/img/og.jpg">
 
 	<script>
 		window.fbAsyncInit = function() {
 			FB.init({
+				appId      : '1091738740846027',
 				xfbml      : true,
 				version    : 'v2.5'
 			});
 		};
+
 		(function(d, s, id){
 			var js, fjs = d.getElementsByTagName(s)[0];
 			if (d.getElementById(id)) {return;}
