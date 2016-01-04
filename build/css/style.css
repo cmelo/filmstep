@@ -172,7 +172,8 @@ body {
     line-height: 1.5; }
   .films .preview {
     padding: 20px 0;
-    margin-top: 10px; }
+    margin: 10px auto 0;
+    max-width: 1200px; }
     .films .preview ul {
       display: -webkit-box;
       display: -webkit-flex;
@@ -209,7 +210,8 @@ body {
     line-height: 1.5; }
   .shows .preview {
     padding: 20px 0;
-    margin-top: 10px; }
+    margin: 10px auto 0;
+    max-width: 1200px; }
     .shows .preview ul {
       display: -webkit-box;
       display: -webkit-flex;
