@@ -95,6 +95,11 @@ body {
   .header .twitter-share-button {
     float: right;
     margin: 15px 8px 0 0; }
+  .header .shares {
+    width: 200px;
+    overflow: visible;
+    white-space: nowrap;
+    margin: 0 auto; }
 
 .separator {
   border: 1px solid rgba(0, 0, 0, 0.125);
