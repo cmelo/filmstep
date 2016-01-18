@@ -76,10 +76,12 @@ body {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.125);
   position: fixed;
   width: 100%;
-  background: #fff; }
+  background: #fff;
+  z-index: 9999; }
   .header h1 {
     line-height: 50px;
-    margin: 0 5px; }
+    margin: 0 5px;
+    float: left; }
     .header h1:before {
       content: " ";
       display: block;
@@ -90,16 +92,11 @@ body {
       background-size: cover;
       margin: 5px; }
   .header .fb-like {
-    float: right;
-    margin: 15px 15px 0 0; }
+    float: left;
+    margin: 15px 0 0 15px; }
   .header .twitter-share-button {
-    float: right;
-    margin: 15px 8px 0 0; }
-  .header .shares {
-    width: 200px;
-    overflow: visible;
-    white-space: nowrap;
-    margin: 0 auto; }
+    float: left;
+    margin: 15px 0 0 15px; }
 
 .separator {
   border: 1px solid rgba(0, 0, 0, 0.125);

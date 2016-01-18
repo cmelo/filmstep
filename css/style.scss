@@ -28,15 +28,14 @@ body {
 }
 
 .header {box-shadow: 0 1px 0 rgba(0,0,0,1/8); position: fixed; width: 100%;
-	background: #fff;
-	h1 {line-height: 50px; margin: 0 5px;
+	background: #fff; z-index: 9999;
+	h1 {line-height: 50px; margin: 0 5px; float: left;
 		&:before {content: " "; display: block; width: 40px; height: 40px;
 			background:url(../../icons/apple-icon-180x180.png); float: left;
 			background-size: cover; margin: 5px;}
 	}
-	.fb-like {float: right; margin: 15px 15px 0 0;}
-	.twitter-share-button {float: right; margin: 15px 8px 0 0;}
-	.shares {width: 200px; overflow: visible; white-space: nowrap; margin: 0 auto;}
+	.fb-like {float: left; margin: 15px 0 0 15px;}
+	.twitter-share-button {float: left; margin: 15px 0 0 15px;}
 }
 
 .separator {border: 1px solid rgba(0,0,0,1/8); height: 0; display: block;
